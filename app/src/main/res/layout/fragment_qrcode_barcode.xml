@@ -104,7 +104,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                    <com.androidmarket.pdfcreator.custom.MyCardView
+                    <com.androidmarket.pdfViewer.custom.MyCardView
                         android:id="@+id/scan_qrcode"
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
@@ -113,7 +113,7 @@
                         app:option_icon="@drawable/ic_qrcode_24dp"
                         app:option_text="@string/scan_qrcode" />
 
-                    <com.androidmarket.pdfcreator.custom.MyCardView
+                    <com.androidmarket.pdfViewer.custom.MyCardView
                         android:id="@+id/scan_barcode"
                         android:layout_width="match_parent"
                         android:layout_height="0dp"

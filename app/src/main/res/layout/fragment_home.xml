@@ -65,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <com.androidmarket.pdfcreator.custom.MyCardView
+                <com.androidmarket.pdfViewer.custom.MyCardView
                     android:id="@+id/images_to_pdf"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
@@ -73,7 +73,7 @@
                     app:option_icon="@drawable/ic_menu_camera"
                     app:option_text="@string/images_to_pdf" />
 
-                <com.androidmarket.pdfcreator.custom.MyCardView
+                <com.androidmarket.pdfViewer.custom.MyCardView
                     android:id="@+id/text_to_pdf"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
@@ -88,7 +88,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <com.androidmarket.pdfcreator.custom.MyCardView
+                <com.androidmarket.pdfViewer.custom.MyCardView
                     android:id="@+id/qr_barcode_to_pdf"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
@@ -96,7 +96,7 @@
                     app:option_icon="@drawable/ic_qrcode_24dp"
                     app:option_text="@string/qr_barcode_pdf" />
 
-                <com.androidmarket.pdfcreator.custom.MyCardView
+                <com.androidmarket.pdfViewer.custom.MyCardView
                     android:id="@+id/excel_to_pdf"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
@@ -123,7 +123,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.androidmarket.pdfcreator.custom.MyCardView
+            <com.androidmarket.pdfViewer.custom.MyCardView
                 android:id="@+id/view_files"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -131,7 +131,7 @@
                 app:option_icon="@drawable/ic_menu_gallery"
                 app:option_text="@string/viewFiles" />
 
-            <com.androidmarket.pdfcreator.custom.MyCardView
+            <com.androidmarket.pdfViewer.custom.MyCardView
                 android:id="@+id/view_history"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -157,7 +157,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.androidmarket.pdfcreator.custom.MyCardView
+            <com.androidmarket.pdfViewer.custom.MyCardView
                 android:id="@+id/add_password"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -165,7 +165,7 @@
                 app:option_icon="@drawable/ic_lock_black_24dp"
                 app:option_text="@string/add_password" />
 
-            <com.androidmarket.pdfcreator.custom.MyCardView
+            <com.androidmarket.pdfViewer.custom.MyCardView
                 android:id="@+id/remove_password"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -173,7 +173,7 @@
                 app:option_icon="@drawable/ic_lock_open_black_24dp"
                 app:option_text="@string/remove_password" />
 
-            <com.androidmarket.pdfcreator.custom.MyCardView
+            <com.androidmarket.pdfViewer.custom.MyCardView
                 android:id="@+id/add_text"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -188,7 +188,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.androidmarket.pdfcreator.custom.MyCardView
+            <com.androidmarket.pdfViewer.custom.MyCardView
                 android:id="@+id/rotate_pages"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -196,7 +196,7 @@
                 app:option_icon="@drawable/baseline_crop_rotate_24"
                 app:option_text="@string/rotate_pages" />
 
-            <com.androidmarket.pdfcreator.custom.MyCardView
+            <com.androidmarket.pdfViewer.custom.MyCardView
                 android:id="@+id/add_watermark"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -204,7 +204,7 @@
                 app:option_icon="@drawable/ic_branding_watermark_black_24dp"
                 app:option_text="@string/add_watermark" />
 
-            <com.androidmarket.pdfcreator.custom.MyCardView
+            <com.androidmarket.pdfViewer.custom.MyCardView
                 android:id="@+id/add_images"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -231,7 +231,7 @@
             android:orientation="vertical">
 
 
-            <com.androidmarket.pdfcreator.custom.MyCardView
+            <com.androidmarket.pdfViewer.custom.MyCardView
                 android:id="@+id/merge_pdf"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -239,7 +239,7 @@
                 app:option_icon="@drawable/ic_merge_type_black_24dp"
                 app:option_text="@string/merge_pdf" />
 
-            <com.androidmarket.pdfcreator.custom.MyCardView
+            <com.androidmarket.pdfViewer.custom.MyCardView
                 android:id="@+id/split_pdf"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -254,7 +254,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.androidmarket.pdfcreator.custom.MyCardView
+            <com.androidmarket.pdfViewer.custom.MyCardView
                 android:id="@+id/invert_pdf"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -262,7 +262,7 @@
                 app:option_icon="@drawable/ic_invert_color_24dp"
                 app:option_text="@string/invert_pdf" />
 
-            <com.androidmarket.pdfcreator.custom.MyCardView
+            <com.androidmarket.pdfViewer.custom.MyCardView
                 android:id="@+id/compress_pdf"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -270,7 +270,7 @@
                 app:option_icon="@drawable/ic_compress_image"
                 app:option_text="@string/compress_pdf" />
 
-            <com.androidmarket.pdfcreator.custom.MyCardView
+            <com.androidmarket.pdfViewer.custom.MyCardView
                 android:id="@+id/remove_duplicates_pages_pdf"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -296,7 +296,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.androidmarket.pdfcreator.custom.MyCardView
+            <com.androidmarket.pdfViewer.custom.MyCardView
                 android:id="@+id/remove_pages"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -304,7 +304,7 @@
                 app:option_icon="@drawable/ic_remove_circle_black_24dp"
                 app:option_text="@string/remove_pages" />
 
-            <com.androidmarket.pdfcreator.custom.MyCardView
+            <com.androidmarket.pdfViewer.custom.MyCardView
                 android:id="@+id/rearrange_pages"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -319,7 +319,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.androidmarket.pdfcreator.custom.MyCardView
+            <com.androidmarket.pdfViewer.custom.MyCardView
                 android:id="@+id/extract_images"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -327,7 +327,7 @@
                 app:option_icon="@drawable/ic_broken_image_black_24dp"
                 app:option_text="@string/extract_images" />
 
-            <com.androidmarket.pdfcreator.custom.MyCardView
+            <com.androidmarket.pdfViewer.custom.MyCardView
                 android:id="@+id/pdf_to_images"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -341,7 +341,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.androidmarket.pdfcreator.custom.MyCardView
+            <com.androidmarket.pdfViewer.custom.MyCardView
                 android:id="@+id/extract_text"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -349,7 +349,7 @@
                 app:option_icon="@drawable/ic_text_format_black_24dp"
                 app:option_text="@string/extract_text" />
 
-            <com.androidmarket.pdfcreator.custom.MyCardView
+            <com.androidmarket.pdfViewer.custom.MyCardView
                 android:id="@+id/zip_to_pdf"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
