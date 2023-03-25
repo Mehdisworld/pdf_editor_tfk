@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="aiPdf">
+    package="pdfconverterpro">
 
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
@@ -32,11 +32,11 @@
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.Theme.AppCompat" />
-        <activity android:name="com.androidmarket.pdfViewer.activities.ActivityCropImage" />
+        <activity android:name="com.pdfconverter.propdftools.activities.ActivityCropImage" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.com.shareFile"
+            android:authorities="com.pdfconverter.propdftools"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -45,26 +45,26 @@
         </provider>
 
         <activity
-            android:name="com.androidmarket.pdfViewer.activities.ActivityImageEditor"
+            android:name="com.pdfconverter.propdftools.activities.ActivityImageEditor"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.androidmarket.pdfViewer.activities.ActivityPreview"
+            android:name="com.pdfconverter.propdftools.activities.ActivityPreview"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.androidmarket.pdfViewer.activities.ActivityRearrangeImages"
+            android:name="com.pdfconverter.propdftools.activities.ActivityRearrangeImages"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.androidmarket.pdfViewer.activities.ActivityImagesPreview"
+            android:name="com.pdfconverter.propdftools.activities.ActivityImagesPreview"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.androidmarket.pdfViewer.activities.ActivityRearrangePdfPages"
+            android:name="com.pdfconverter.propdftools.activities.ActivityRearrangePdfPages"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.androidmarket.pdfViewer.activities.ActivityFavourites"
+            android:name="com.pdfconverter.propdftools.activities.ActivityFavourites"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.androidmarket.pdfViewer.activities.HomeActivity"
+            android:name="com.pdfconverter.propdftools.activities.HomeActivity"
             android:exported="true"
             android:screenOrientation="portrait">
 
@@ -76,10 +76,10 @@
             android:value="@string/app_id_admob" />
 
         <activity
-            android:name="com.androidmarket.pdfViewer.activities.SecondActivity"
+            android:name="com.pdfconverter.propdftools.activities.SecondActivity"
             android:screenOrientation="portrait" />
 
-        <activity android:name="com.androidmarket.pdfViewer.activities.SplashActivity"
+        <activity android:name="com.pdfconverter.propdftools.activities.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -4,9 +4,9 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
-import aiPdf.R;
-import com.androidmarket.pdfViewer.pdfModel.BrushItem;
-import com.androidmarket.pdfViewer.util.BrushUtils;
+import pdfconverterpro.R;
+import com.pdfconverter.propdftools.pdfModel.BrushItem;
+import com.pdfconverter.propdftools.util.BrushUtils;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;

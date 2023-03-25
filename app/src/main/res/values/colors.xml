@@ -4,12 +4,12 @@
     <color name="colorPrimaryDark">@color/color_excel_pdf</color>
     <color name="colorAccent">@color/color_excel_pdf</color>
     <color name="light_gray">#d3d3d3</color>
-    <color name="grey">#9F9F9F</color>
+    <color name="grey">#B1ADAD</color>
     <color name="lighter_gray">#EDEDED</color>
     <color name="dark_purple">#690339</color>
-    <color name="colorGray">#607D8B</color>
+    <color name="colorGray">#5F8293</color>
     <color name="black">#000000</color>
-    <color name="red">#FF0000</color>
+    <color name="red">#F40404</color>
     <color name="white">#FFFFFF</color>
     <color name="colorBlackAlt">#2B303B</color>
     <color name="colorBlackAltLight">#3E4553</color>
@@ -21,10 +21,10 @@
     //Black Colors
 
     //White Colors
-    <color name="color_image_pdf">#5AC5CA</color>
-    <color name="color_text_pdf">#F27D59</color>
-    <color name="color_qr_pdf">#A58FFD</color>
-    <color name="color_excel_pdf">#6298EC</color>
+    <color name="color_image_pdf">#4DCDD3</color>
+    <color name="color_text_pdf">#FD6E6E</color>
+    <color name="color_qr_pdf">#9D86F6</color>
+    <color name="color_excel_pdf">#09B3A4</color>
 
 
     <!-- DOTS COLOR -->
