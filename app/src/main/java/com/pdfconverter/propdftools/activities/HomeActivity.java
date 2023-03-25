@@ -126,7 +126,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.cardQrToPdf:
 
 
-                if (mInterstitialAd.isLoaded()) {
+                /*if (mInterstitialAd.isLoaded()) {
                     mInterstitialAd.show();
                     mInterstitialAd.setAdListener(new AdListener() {
                         @Override
@@ -144,8 +144,11 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                     Intent intent3 = new Intent(HomeActivity.this, SecondActivity.class);
                     intent3.putExtra("fragment", "qrToPdf");
                     startActivity(intent3);
-                }
+                }*/
 
+                Intent intent3 = new Intent(HomeActivity.this, SecondActivity.class);
+                intent3.putExtra("fragment", "qrToPdf");
+                startActivity(intent3);
                 break;
             case R.id.cardExcelToPdf:
 
@@ -170,7 +173,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
                 break;
             case R.id.cardAddWatermark:
-                if (mInterstitialAd.isLoaded()) {
+                /*if (mInterstitialAd.isLoaded()) {
                     mInterstitialAd.show();
                     mInterstitialAd.setAdListener(new AdListener() {
                         @Override
@@ -188,12 +191,14 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                     intent5.putExtra("fragment", "watermark");
                     startActivity(intent5);
 
-                }
+                }*/
 
-
+                Intent intent5 = new Intent(HomeActivity.this, SecondActivity.class);
+                intent5.putExtra("fragment", "watermark");
+                startActivity(intent5);
                 break;
             case R.id.cardHistory:
-                if (mInterstitialAd.isLoaded()) {
+                /*if (mInterstitialAd.isLoaded()) {
                     mInterstitialAd.show();
                     mInterstitialAd.setAdListener(new AdListener() {
                         @Override
@@ -209,9 +214,11 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                     Intent intent6 = new Intent(HomeActivity.this, SecondActivity.class);
                     intent6.putExtra("fragment", "history");
                     startActivity(intent6);
-                }
+                }*/
 
-
+                Intent intent6 = new Intent(HomeActivity.this, SecondActivity.class);
+                intent6.putExtra("fragment", "history");
+                startActivity(intent6);
                 break;
             case R.id.cardViewFiles:
 
@@ -232,7 +239,6 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                     intent7.putExtra("fragment", "view");
                     startActivity(intent7);
                 }
-
 
                 break;
             case R.id.cardSettings:

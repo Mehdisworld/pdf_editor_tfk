@@ -1,11 +1,13 @@
 package com.pdfconverter.propdftools.activities;
 
-import androidx.appcompat.app.AppCompatActivity;
+
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.android.volley.Request;
 import com.android.volley.toolbox.JsonObjectRequest;
@@ -42,15 +44,16 @@ public class SplashActivity extends AppCompatActivity {
                         MyApp.InterstitialAdmob = AdsController.getString(MyApp.JSON_INTADMOB);
                         MyApp.NativeAdmob = AdsController.getString(MyApp.JSON_NATADMOB);
                         MyApp.isJsonRetrieved = 1;
-                        Log.d("TAG", "Server: We received the JSON.");
+                        Log.d("TAGG", MyApp.BannerAdmob);
 
-                        AdsUtility.loadInterstitialAd(this, MyApp.InterstitialAdmob);
+                        //AdsUtility.loadInterstitialAd(this, MyApp.InterstitialAdmob);
 
 
                         new Handler().postDelayed(new Runnable() {
                             @Override
                             public void run() {
-                                if (AdsUtility.mInterstitialAd.isLoaded()){
+                                startActivity(new Intent(SplashActivity.this, HomeActivity.class));
+                                /*if (AdsUtility.mInterstitialAd.isLoaded()){
                                     AdsUtility.mInterstitialAd.show();
                                     AdsUtility.mInterstitialAd.setAdListener(new AdListener(){
                                         @Override
@@ -62,9 +65,9 @@ public class SplashActivity extends AppCompatActivity {
                                     });
                                 } else {
                                     startActivity(new Intent(SplashActivity.this, HomeActivity.class));
-                                    finish();
+                                    //finish();
 
-                                }
+                                }*/
                             }
                         }, 3000);
 
